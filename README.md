@@ -16,8 +16,10 @@
 
 
 ### 5번: name.txt를 이용해서 맨마지막 부분에 새로운 데이터를 넣어주세요. (줄 바꿈을 먼저 진행하시고 이름, 나이, 성별을 넣어주세요)
+![image](https://github.com/JiJuOh/StreamEditor/assets/81970382/d4597ea3-f66f-4076-9616-1b3ba64e1e5f)
 - `sed -i '$ s/$/\n김춘삼 10     남자/' name.txt`
 - ` sed -i '$ s/$/\n여기에 넣을 데이터 값~/' name.txt`
+
 
 ### 8번 : 4번째 줄 위에서부터 17번째 줄 위까지 "--------------------------------------------------------------" 를 출력해줘
 ![Untitled](https://github.com/JiJuOh/StreamEditor/assets/112544126/87a590d4-5ce4-4906-ac27-02d431f7fde2)
