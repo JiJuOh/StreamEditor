@@ -4,7 +4,7 @@
 
 
 
-### 2번 : emp.txt의 hiredate 칸의 포맷을 변경하려고 합니다. YYYY-mm-dd포맷을 yy-mm-dd로 바꿔주세요
+### 2번 : emp.txt의 hiredate 칸의 포맷을 변경하려고 합니다. YYYY-mm-dd포맷을 yy-mm-dd로 바꾸고 그대로 저장해주세요
 `sed -i -E 's/([0-9]{2})([0-9]{2})-([0-9]{2})-([0-9]{2})/\2\/\3\/\4/' emp.txt`
 
 
