@@ -10,3 +10,11 @@
 - `sed -i '$ s/$/\n김춘삼 10     남자/' name.txt`
 - ` sed -i '$ s/$/\n여기에 넣을 데이터 값~/' name.txt`
 
+### 8번 : 4번째 줄 위에서부터 17번째 줄 위까지 "--------------------------------------------------------------" 를 출력해줘
+https://www.notion.so/FIS-9a8eeb6b0684438e9c1f4adc373dd47b?pvs=4#3174c051f81d433a84974958966bfaf5
+![Untitled](https://github.com/JiJuOh/StreamEditor/assets/112544126/87a590d4-5ce4-4906-ac27-02d431f7fde2)
+정답 : sed '4, 17 i\--------------------------------------------------------------' emp.txt
+### 9번 : 7번(Martin), 10번(Scott) 라인 삭제해줘
+### 10번 : 기존의 데이터 전체를 “우분투~~^^”로 변경하고 각 줄번호가 표시되게 해줘
+https://www.notion.so/FIS-9a8eeb6b0684438e9c1f4adc373dd47b?pvs=4#5570610cb4bf408089bc98eee39d6022
+![Untitled2 (1)](https://github.com/JiJuOh/StreamEditor/assets/112544126/8d6f9bf4-daad-430c-8afe-d059e05d41b3)
