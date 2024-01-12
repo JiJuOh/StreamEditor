@@ -18,7 +18,13 @@
 
 ### 8번 : 4번째 줄 위에서부터 17번째 줄 위까지 "--------------------------------------------------------------" 를 출력해줘
 ![Untitled](https://github.com/JiJuOh/StreamEditor/assets/112544126/87a590d4-5ce4-4906-ac27-02d431f7fde2)
+
 정답 : sed '4, 17 i\--------------------------------------------------------------' emp.txt
+
 ### 9번 : 7번(Martin), 10번(Scott) 라인 삭제해줘
+정답 : sed '7, 10d' emp.txt
+
 ### 10번 : 기존의 데이터 전체를 “우분투~~^^”로 변경하고 각 줄번호가 표시되게 해줘
 ![Untitled2 (1)](https://github.com/JiJuOh/StreamEditor/assets/112544126/8d6f9bf4-daad-430c-8afe-d059e05d41b3)
+
+정답 : sed 'c\\우분투~~^^' emp.txt | cat -n
